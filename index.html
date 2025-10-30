@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asratie's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <img src="images/c.jpg" alt="images" />
+
+</head>
+<body>
+
+  
+  <header class="navbar">
+    <div class="main">
+      <h1>Asratie's Portfolio</h1>
+
+      
+      <div class="menu-icon" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      
+      <ul id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-image">
+        <img src="c.jpg" alt="Asratie's Profile Picture" />
+      </div>
+      <div class="hero-title">
+        <h2>Welcome to My Portfolio</h2>
+        <p>I'm Asratie Yiresu, a front-end web developer.</p>
+      </div>
+      <div class="hero-text">
+        <p>I love building beautiful and functional websites using HTML, CSS, and React. Explore my work and get in touch!</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Asratie. All rights reserved.</p>
+      <p>Designed using HTML, CSS, and JavaScript.</p>
+    </div>
+  </footer>
+
+  
+  <script>
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("show");
+    }
+  </script>
+</body>
+</html>
